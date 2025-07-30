@@ -1,0 +1,91 @@
+.guestbook-wrapper {
+  padding: 40px 0;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+.guestbook-swiper {
+  margin-left: 16px;
+}
+
+.guestbook-item-card {
+  position: relative;
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  padding: 16px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.card-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 16px;
+}
+
+.item-from {
+  margin-bottom: 8px;
+}
+
+.item-text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 12px;
+}
+
+.item-date {
+  font-size: 0.75rem;
+  color: #999;
+  text-align: right;
+}
+
+.guestbook-actions {
+  text-align: right;
+  margin-right: 16px;
+  margin-top: 10px;
+}
+
+.guestbook-add-button {
+  background-color: #d97d83;
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  max-width: fit-content;
+
+  &.first-btn {
+    margin-right: 5px;
+  }
+}
+
+.guestbook-add-button:hover {
+  background-color: #c16b70 !important;
+  color: #fff !important;
+}
+
+.guestbook-modal .ant-modal-content {
+  padding: 24px;
+}
+
+.guestbook-modal .ant-form-item-label > label {
+  font-weight: 500;
+}
+
+.guestbook-modal .ant-btn-primary {
+  background-color: var(--title-color);
+  border-color: var(--title-color);
+}
+
+.guestbook-swiper .swiper-button-next,
+.guestbook-swiper .swiper-button-prev,
+.guestbook-swiper .swiper-pagination {
+  display: none !important;
+}
+
+// 전체보기 스타일
+.item-date {
+  padding-left: 10px;
+}

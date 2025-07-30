@@ -1,0 +1,88 @@
+.customSwiper {
+  height: calc(
+    100% - 80px
+  ); /* 상단 패딩·타이틀·페이지번호 높이만큼 빼고 나머지를 슬라이드 높이로 */
+}
+
+.customSwiper .swiper-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.customSwiper .swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.slideImage {
+  max-height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+
+.title {
+  padding: 0 16px;
+  font-size: 1rem;
+  color: var(--title-color);
+  font-weight: bold;
+  opacity: 0.85;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.photoGallery {
+  padding: 0 16px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.imageBox {
+  cursor: pointer;
+  height: 125px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.modalTitle {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.customSwiper {
+  width: 100%;
+  height: auto;
+}
+
+.slideImage {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.pageNumber {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Swiper 네비게이션 화살표 */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 25px;
+  font-weight: bold;
+}

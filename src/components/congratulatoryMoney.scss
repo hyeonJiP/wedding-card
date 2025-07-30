@@ -1,0 +1,51 @@
+.accounts-wrapper {
+  margin: 0 16px;
+}
+
+.section-button {
+  background: #eee7e6;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-list {
+  text-align: left;
+}
+
+.account-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.account-info {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.copy-button {
+  background-color: #f0f0f0;
+  color: #333;
+  line-height: 20px;
+  border-radius: 3px;
+  border: none;
+  padding: 4px 12px;
+  font-size: 0.875rem;
+  transition: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: #f0f0f0;
+    color: #333;
+    border: none;
+    box-shadow: none;
+  }
+}

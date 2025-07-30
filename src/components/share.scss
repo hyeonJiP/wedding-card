@@ -1,0 +1,37 @@
+.share-wrapper {
+  padding-top: 42px;
+  width: 100%;
+  text-align: center;
+}
+
+.share-divider {
+  margin: 0 0 32px;
+  border-top: none;
+}
+
+.share-kakao-button {
+  border: none;
+  box-shadow: none;
+  color: #181600;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 5px;
+
+  &:hover,
+  &:focus {
+    color: #181600 !important;
+  }
+}
+
+.share-link-button {
+  border: none;
+  box-shadow: none;
+  color: #181600;
+  font-weight: bold;
+  width: 100%;
+  margin-bottom: 10px;
+
+  &:hover {
+    color: #181600 !important;
+  }
+}

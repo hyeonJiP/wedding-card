@@ -1,0 +1,108 @@
+/* 폰트 적용 */
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Pretendard-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 600;
+  src: url("./fonts/Pretendard-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Pretendard";
+  font-style: normal;
+  font-weight: 700;
+  src: url("./fonts/Pretendard-Bold.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+  font-family: "Pretendard", sans-serif;
+}
+
+@font-face {
+  font-family: "KimjungchulScript-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulScript-Bold.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+:root {
+  --title-color: #d97d83;
+}
+// * {
+//   font-family: "Noto Serif KR", serif, -apple-system, BlinkMacSystemFont,
+//     "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+//     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+// }
+
+/* 카카오맵 버튼 없애기 */
+.wrap_controllers {
+  display: none !important;
+}
+
+.root_daum_roughmap {
+  width: 100% !important;
+  max-height: 240px !important;
+}
+.root_daum_roughmap_landing {
+  margin: auto !important;
+}
+.root_daum_roughmap .wrap_btn_zoom {
+  display: none !important;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.wrapper {
+  padding: 40px 0;
+}
+
+/* 섹션 타이틀 */
+.section-title {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--title-color);
+  font-weight: 600;
+  margin-bottom: 30px;
+}
